@@ -1,0 +1,11 @@
+<pre></pre>: para jaisa hai but jo jaise likhoge, vaise hi exact display hoga/pre formatted text
+<br>: break a line
+<hr>: horizzontal rule/draws a hprizontal line bw
+<a href=""></a>: hyperlink
+<a href target="_blank": opens url in a new tab
+<a href title="">: adds a title when hovering over
+<a href="mailto:email_address">: opens mail to mail someone
+<img src="image_address+format" alt="anything">
+<ol>: ordered list
+<ul>: unordered list
+<dl>: description list/word with definition kinda, or elaboration

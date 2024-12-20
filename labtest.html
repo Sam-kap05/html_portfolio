@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+    <style>
+     
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2em;
+        }
+
+        nav ul {
+            list-style: none;
+            color: yellow;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+            
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .section {
+            padding: 50px 0;
+        }
+
+        .skill {
+            margin-bottom: 10px;
+        }
+
+        .skill-bar {
+            background: #df07c9;
+            height: 20px;
+        }
+        h1 {
+            color: aqua;
+        }
+        h2 {
+            color: rgb(4, 30, 179);
+        }
+        script{
+            text-align: left;
+        }        
+        .social-link {
+            color: #0077B5; /* LinkedIn blue color */
+        }
+        .social-link:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Samarth Kapoor</h1>
+            <p>Aspiring Developer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#achievements">Achievements</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hey there! Samarth here.<br>
+                I am asipiring to opt for MS and study abroad after my B.tech from DTU.<br>
+                I currently know how to implement C, HTML, CSS<br>
+                I am aiming to get a good CGPA in my first semester, for a confidence boost in the upcoming semesters of college.<br>
+                I love to be a part of this prestigious insitutions and well-trained professors.</p>
+            <p>Address: Delhi Technological University </p>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skill">
+                <h3>HTML</h3>
+                <div class="skill-bar" style="width: 70%;"></div>
+                <h3>CSS</h3>
+                <div class="skill-bar" style="width: 50%"></div>
+                <h3>C</h3>
+                <div class="skill-bar" style="width: 80%;"></div>
+            </div>            
+        </div>
+    </section>
+
+    <section id="achievements" class="section">
+        <div class="container">
+            <h2>Achievements</h2>
+            <p>Working on these! You will soon see a list :)</p>
+        </div>
+    </section>
+
+    <section id="hobbies" class="section">
+        <div class="container">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Playing Badminton</li>
+                <li>Playing cricket</li>
+                <li>Playing valorant & rocket league</li>
+                <li>Loving animals</li>
+                <li>Appreciating Nature</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:samarthkapoor_23cs370@dtu.ac.in" class="social-link">Mail Me!</a></p>
+            <p>Social Media: <a href="https://www.linkedin.com/in/samarth-kapoor-6b9a44283" target="_blank" class="social-link">LinkedIn</a></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; <span id="year"></span> Samarth Kapoor</p>
+        </div>
+    </footer>
+
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
